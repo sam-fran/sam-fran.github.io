@@ -15,11 +15,12 @@ header{
 #main-container{
     position:fixed;
     top:11vh;
-    left:-5px;
+    left:-1vh;
     width:101vw;
     height:89vh;
     border: 3px solid;
-    padding-left: 10px;
+    padding:1vh;
+    padding-left: 2vh;
 }
 #main-container textarea{
     width: 90vh;
