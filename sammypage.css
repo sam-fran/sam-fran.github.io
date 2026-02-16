@@ -4,6 +4,7 @@ body{
 }
 header{
     display: flex;
+    min-height: 200px;
 }
 #icon{
     position: static;
@@ -15,7 +16,7 @@ header{
 #main-title{
     position:relative;
     line-height:0px;
-    top: 4vh;
+    top: 0px;
     min-width: 300px;
 }
 #links{
