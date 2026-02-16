@@ -1,6 +1,7 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: burlywood;
+    cursor: url(cursor.png) 0 0, auto;
 }
 header{
     display: flex;
