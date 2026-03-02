@@ -1,0 +1,9 @@
+/*Puts an icon after every link sized to the font */
+a::after {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: url('images/linkicon.png') no-repeat center/contain;
+    margin-right: 8px; 
+}
