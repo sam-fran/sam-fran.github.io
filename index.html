@@ -2,10 +2,17 @@
 <head>
     <title>Sammy's Website</title>
     <link rel="icon" href="/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         ul li {
             list-style-type: circle;
-            font-size: large;
+            font-size: x-large;
+        }
+
+        ul li a {
+            color:white;
         }
         
         body {
@@ -18,8 +25,19 @@
         .container {
             background-color: rgba(70, 72, 151, 0.4);
             display: inline-block;
-            padding: 1em;
+            padding: 2em;
             min-height: 70vh;
+            min-width: 670px;
+            width:fit-content;
+            overflow-y:auto;
+        }
+
+        h1 {
+            background: linear-gradient(to right,red,blue);
+            background-clip: text;
+            color:transparent;
+            font-size:80px;
+            text-align: center;
         }
 
         h2 {
@@ -27,26 +45,27 @@
         }
 
         .bg {
-            min-height: 100vh;
-            min-width: 100vw;
+            width: 100vw;
+            height: 100vh;
             position: absolute;
             padding: 0px;
             margin: 0px;
             z-index: -1000;
             left: 0px;
-            top: 0px
+            top: 0px;
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
     <img class="bg" src="background.jpg">
-    <div class="container">  
+    <main class="container">  
         <h1>Sammy's website!</h1>
-        <br>
         <h2>This is a list of some HTML/CSS/JS projects that I have done, stay tuned for more soon: </h2>
         <ul>
             <!-- Format: <li><a href="projects/"></a></li> -->
             <li><a href="projects/searchbar/searchbar.html">Searchbar</a></li>
         </ul>
-    </div>
+    </main>
+    <p>©Sammy 2026</p>
 </body>
