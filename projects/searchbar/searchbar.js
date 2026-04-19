@@ -28,3 +28,5 @@ if (matches.length === 0) {
 
 matches.forEach(match => addResult(match));
 }
+
+inputChanged();
