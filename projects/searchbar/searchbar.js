@@ -1,6 +1,6 @@
 const inputEl = document.getElementById("input");
 const resultsEl = document.getElementById("results");
-const words = ["pear", "apple", "goat"];
+const words = ["people", "number", "called", "system", "public", "school", "should", "around", "family", "health", "during", "always", "period", "service", "toward", "enough", "policy", "appear", "market", "expect", "nation", "course", "change", "result", "member", "reason", "before", "moment", "office", "return", "action", "person", "others", "record", "social", "effect", "little", "within", "nature", "matter", "center", "common", "recent", "myself", "series", "animal", "factor", "decade", "author", "accept"];
 
 function inputChanged() {
 const query = inputEl.value.trim().toLowerCase();
